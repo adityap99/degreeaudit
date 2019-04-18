@@ -1,0 +1,56 @@
+
+.admin--view_individual_report--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 7 7 0;
+    margin: 3%;
+    background-color: #FDFDFE;
+    box-shadow: #D7D7D7 2px 8px 8px;
+    color: #04378F;
+    font-size: 22px;
+    max-width: 80vw;
+    max-height: 90vw;
+    overflow-y: scroll;
+}
+
+.admin--view_individual_report--detail_component {
+    display: flex;
+    justify-content: center;
+    flex: 7 7 0;
+    margin: 3%;
+    background-color: #FDFDFE;
+    box-shadow: #D7D7D7 2px 8px 8px;
+    color: #04378F;
+    font-size: 22px;
+    max-width: 80vw;
+    max-height: 90vw;
+    overflow-y: scroll;
+}
+.admin--view_individual_report--submitbutton{
+    cursor: pointer;
+    background-color: #23931F;
+    color: white;
+    border-radius: 47px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left :20px;
+    padding-right :20px;
+    font-size: 20px;
+    border: #707070 1px;
+    margin-left: 1.8vw;
+
+
+}
+.admin--view_individual_report--submitbutton:hover{
+    font-size: 21px;
+
+}
+.denied{
+    color:red;
+    font-weight: bold;
+   /* text-transform: capitalize;
+ */   max-width: 10vw;
+    margin-left: 2vw;
+}
+

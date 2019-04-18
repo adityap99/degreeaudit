@@ -1,0 +1,35 @@
+.login--container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: "sans-serif";
+
+}
+
+.login--imageContainer {
+    height: 311px;
+    width: 311px;
+   /*   background-color: aquamarine;
+*/
+}
+
+.login--image {
+    height: 50%;
+    width: 50%;
+
+}
+.userpass{
+    /*align-items: center;*/
+    text-align: center;
+}
+.limiter {
+    width: 100%;
+    margin: 0 auto;
+}
+.login--denied{
+    color:red;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}

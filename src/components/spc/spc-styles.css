@@ -1,0 +1,52 @@
+.spc--container {
+    display: flex;
+    height: 100vh;
+    background-color: #FFFFFF;
+    font-family: "arial";
+
+}
+/*.playground{
+    background-color: #FFFFFF;
+    margin-left: 30vw;
+    /*margin:30vw;
+}*/
+
+.spc--options--container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    background-color: #00267C;
+    color:white;
+    font-family: "Arial";
+    font-size: 18px;
+
+
+}
+
+.spc--options {
+    flex: 1 1 auto;
+    /*justify-content: center;
+    */text-align: center;
+    padding-top: 25%;
+    padding-left: 2px;
+    padding-right: 10px;
+    border: #707070 0.05px solid;
+
+}
+
+.spc--options:hover{
+    background-color: #23931F;
+    font-weight: bold;
+    cursor: pointer;
+}
+.spc--logoutbold{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.spc--nohover:hover{
+    background-color: #00267C;
+    cursor: default;
+
+
+
+}

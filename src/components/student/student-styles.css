@@ -1,0 +1,66 @@
+.student--container {
+    display: flex;
+    height: 100vh;
+    background-color: #FFFFFF;
+    font-family: "arial";
+
+}
+/*.playground{
+    background-color: #FFFFFF;
+    margin-left: 30vw;
+    /*margin:30vw;
+}*/
+
+.student--options--container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    background-color: #00267C;
+    color:white;
+    font-family: "Arial";
+    font-size: 18px;
+
+
+}
+
+.student--options {
+    flex: 1 1 auto;
+    /*justify-content: center;
+    */text-align: center;
+    padding-top: 25%;
+    padding-left: 2px;
+    padding-right: 10px;
+    border: #707070 0.05px solid;
+
+}
+
+.student--options:hover{
+    background-color: #23931F;
+    font-weight: bold;
+    cursor: pointer;
+}
+.student--logoutbold{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.student--nohover:hover{
+    background-color: #00267C;
+    cursor: default;
+
+
+
+}
+
+.student--view_individual_report--detail_component {
+    display: flex;
+    justify-content: center;
+    flex: 7 7 0;
+    margin: 3%;
+    background-color: #FDFDFE;
+    box-shadow: #D7D7D7 2px 8px 8px;
+    color: #04378F;
+    font-size: 22px;
+    max-width: 80vw;
+    max-height: 90vw;
+    overflow-y: scroll;
+}

@@ -1,0 +1,54 @@
+.admin--container {
+    display: flex;
+    height: 100vh;
+    background-color: #FFFFFF;
+    font-family: "arial";
+
+}
+/*.playground{
+    background-color: #FFFFFF;
+    margin-left: 30vw;
+    /*margin:30vw;
+}*/
+
+.admin--options--container {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    background-color: #00267C;
+color:white;
+    font-family: "Arial";
+    font-size: 18px;
+
+
+}
+
+.admin--options {
+    flex: 1 1 auto;
+    /*justify-content: center;
+    */text-align: center;
+    padding-top: 25%;
+    padding-left: 2px;
+    padding-right: 10px;
+    border: #707070 0.05px solid;
+
+}
+
+.admin--options:hover{
+    background-color: #23931F;
+    font-weight: bold;
+    cursor: pointer;
+}
+.admin--logoutbold{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.admin--nohover:hover{
+    background-color: #00267C;
+    cursor: default;
+    font-weight: bold;
+    font-size: 18px;
+
+
+
+}

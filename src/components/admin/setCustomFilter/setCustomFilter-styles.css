@@ -1,0 +1,80 @@
+.admin--set_custom_filter--container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 7 7 0;
+    margin: 3%;
+    background-color: #FDFDFE;
+    box-shadow: #D7D7D7 2px 8px 8px;
+    color: #04378F;
+    font-size: 22px;
+    max-width: 80vw;
+    max-height: 90vw;
+    overflow-y: scroll;
+}
+
+.admin--set_custom_filter--CPI {
+    margin-bottom: 12vh;
+    display: flex;
+    justify-content: baseline;
+}
+
+.admin--set_custom_filter--CPI--text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.admin--set_custom_filter--CPI--input {
+    height: fit-content;
+}
+
+.admin--set_custom_filter--batch {
+    margin-bottom: 100px;
+}
+/*.admin--set_custom_filter--wrapper{*/
+    /*text-align: right;*/
+/*}*/
+.admin--set_custom_filter--submitbutton{
+    cursor: pointer;
+    background-color: #23931F;
+    color: white;
+    border-radius: 47px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left :20px;
+    padding-right :20px;
+    font-size: 20px;
+    border: #707070 1px;
+
+}
+.admin--set_custom_filter--submitbutton:hover{
+    font-size: 21px;
+
+}
+.admin--set_custom_filter--selectedcourses{
+    margin-top: 2px;
+    list-style-type: none;
+    font-size:20px;
+}
+
+.admin--set_custom_filter--detail_component {
+    display: flex;
+    justify-content: center;
+    flex: 7 7 0;
+    margin: 3%;
+    background-color: #FDFDFE;
+    box-shadow: #D7D7D7 2px 8px 8px;
+    color: #04378F;
+    font-size: 22px;
+    max-width: 80vw;
+    max-height: 90vw;
+    overflow-y: scroll;
+}
+.denied{
+    color:red;
+    font-weight: bold;
+    /* text-transform: capitalize;
+  */   max-width: 10vw;
+    margin-left: 2vw;
+}

@@ -1,0 +1,47 @@
+.flex-container {
+    display: flex;
+    background-color: #FDFDFE;
+    align-items: center;
+    min-width:  60vw;
+}
+
+.flex-container > div {
+    background-color: #FDFDFE;
+    margin: 0vw;
+    margin-bottom: 2vh;
+    /*padding: 20px;*/
+    /*font-size: 30px;*/
+}
+.all-rounded {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.spacer {
+    display: block;
+}
+
+#progress-bar {
+    width: 12vw;
+    background: #cccccc;
+    position: relative;
+    height: 4vh;
+    border: black;
+}
+
+#progress-bar-percentage {
+    background: #23931F;
+    padding: 5px 0px;
+    color: #FFF;
+    text-align: center;
+    height: 4vh;
+
+}
+
+#progress-bar-percentage span {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
